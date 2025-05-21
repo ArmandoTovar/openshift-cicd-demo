@@ -6,7 +6,7 @@ metadata:
 spec:
   generators:
   - git:
-      repoURL: https://github.com/RedHatWorkshops/openshift-cicd-demo
+      repoURL: https://github.com/ArmandoTovar/openshift-cicd-demo
       revision: main
       directories:
       - path: tenants/cicd-demo/*
@@ -20,7 +20,7 @@ spec:
           prune: true
           selfHeal: true
       source:
-        repoURL: https://github.com/RedHatWorkshops/openshift-cicd-demo
+        repoURL: https://github.com/ArmandoTovar/openshift-cicd-demo
         targetRevision: main
         path: '{{path}}'
       destination:
